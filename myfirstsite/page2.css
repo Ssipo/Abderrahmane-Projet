@@ -1,0 +1,147 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background-light.jpg);
+    background-size: cover;
+}
+main{
+    text-align: center;
+    width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+
+
+}
+
+body{
+    background-color: #F1F3FFFF;
+
+}
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+h1 {
+    font-size: 120px;
+    line-height: .8;
+ }
+h2 {
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    color: #963CBDFF;
+}
+h3{
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    color: #963CBDFF;
+}
+p{
+    font-size: 20px;
+}
+
+/*First Part*/
+.first-part{
+    background-color: #F1F3FFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-image: url(img/background-light.jpg);
+    background-size: cover;
+}
+.first-title{
+    color: #EF6079FF;
+}
+.first-img{
+    margin: 25px 20px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Second Part*/
+.second-part{
+    background-color: #F7CED7FF;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.second-img{
+    width: 350px;
+}
+/*Third Part*/
+.third-part{
+   /* background-color: rgb(245, 165, 202) ;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.third-img{
+    width: 350px;
+}
+/*Forth Part*/
+.forth-part{
+    background-color: #F7CED7FF;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.forth-img{
+    width: 350px;
+}
+/*fifth part*/
+.Fifth-part{
+    background-image: url(img/background-strong.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.fifth-img{
+    width: 300px;
+    border: purple 4px solid;
+}
+.fifth-img-one{
+    width: 360px;
+    border: purple 4px solid;
+}
+.fifth-img-two{
+    width: 235px;
+    border: purple 4px solid;
+}
+.selector{
+    display:flex;
+    border: purple 4px solid;
+    margin-bottom: 10px;
+    padding-right: 9px;
+    padding-top: 10px;
+    padding-left: 10px ;
+    
+}
+.linked{
+    display: inline-block;
+    padding: .5em 1.25em;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: url(img/BeStrong.jpg);
+    background-size: cover;
+    border: dotted;
+    color: #963CBDFF ;
+    border-color: #963CBDFF;
+}
+.step-one{
+    padding: 5px 100px;
+    background-image: url(img/Gambater.jpg);
+    text-align: center;
+}

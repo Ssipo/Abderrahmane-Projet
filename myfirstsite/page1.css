@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #963CBDFF;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120px;
+    background-image: url(img/Gambater.jpg);
+    background-size: cover;
+    border-style: dotted;
+    
+}
+h2{
+    color: #963CBDFF;
+}
+p{
+    color:black;
+    font-size: 20px;
+}
+ol{
+    color:black;
+    font-size: 20px;
+
+}
+body{
+    background: #F7CED7FF;
+    background-image: url(img/background-strong.jpg);
+    background-size: cover;
+}
+img{
+    margin: 25px 20px;
+    width: 350px;
+}
+.center{
+    text-align: center;
+    width: 900px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.join{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.linked{
+    display: inline-block;
+    padding: .5em 1.25em;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: url(img/BeStrong.jpg);
+    background-size: cover;
+    border: dotted;
+    color: #963CBDFF ;
+    border-color: #963CBDFF;
+}
