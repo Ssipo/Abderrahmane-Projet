@@ -94,6 +94,7 @@ function renderGame() {
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
+        isAlive = true
     } else if (sum === 21) {
         message = "You've got Blackjack!"
         hasBlackJack = true
