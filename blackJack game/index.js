@@ -4,9 +4,9 @@ let player = {
 }
 
 let cards = []
-var deck = ["fullDeck/ace.png", "fullDeck/card2.png'", "fullDeck/card3.png","fullDeck/card4.png","fullDeck/card5.png",
-"fullDeck/card6.png","fullDeck/card7.png","fullDeck/card8.png","fullDeck/card9.png","fullDeck/card10.png","fullDeck/cardj.jpg",
-"fullDeck/cardq.jpg","fullDeck/cardk.jpg"]
+var deck = ['fullDeck/ace.png', 'fullDeck/card2.png', 'fullDeck/card3.png','fullDeck/card4.png','fullDeck/card5.png',
+'fullDeck/card6.png','fullDeck/card7.png','fullDeck/card8.png','fullDeck/card9.png','fullDeck/card10.png','fullDeck/cardj.jpg',
+'fullDeck/cardq.jpg','fullDeck/cardk.png']
 
 let sum = 0
 let hasBlackJack = false
@@ -18,52 +18,50 @@ let cardsEl = document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
 let deckEl = document.getElementById("deck-el")
 
+
 playerEl.textContent = player.name + ": $" + player.chips
 
-for (var i = 0; i < deck.length; i++) {
-    document.getElementById("deck-el").src = deck.src;
-}
 
 function getRandomCard() {
     let randomNumber = Math.floor( Math.random()*13 ) + 1
     if(randomNumber === 1 ){
-        deckEl.textContent += " " + deck[0]
+        deckEl.innerHTML += "<img src ='fullDeck/ace.png' >"  
     }
     else if(randomNumber === 2 ){
-        deckEl.textContent += " " + deck[1]
+        deckEl.innerHTML += "<img src ='fullDeck/card2.png' >" 
     }
     else if(randomNumber === 3 ){
-        deckEl.textContent += " " + deck[2]
+        deckEl.innerHTML += "<img src ='fullDeck/card3.png' >" 
     }
     else if(randomNumber === 4){
-        deckEl.textContent += " " + deck[3]
+        deckEl.innerHTML += "<img src ='fullDeck/card4.png' >" 
     }
     else if(randomNumber === 5){
-        deckEl.textContent += " " + deck[4]
+        deckEl.innerHTML += "<img src ='fullDeck/card5.png' >" 
     }
     else if(randomNumber === 6){
-        deckEl.textContent += " " + deck[5]
+        deckEl.innerHTML += "<img src ='fullDeck/card6.png' >" 
     }
     else if(randomNumber === 7){
-        deckEl.textContent += " " + deck[6]
+        deckEl.innerHTML += "<img src ='fullDeck/card7.png' >" 
     }
     else if(randomNumber === 8){
-        deckEl.textContent += " " + deck[7]
+        deckEl.innerHTML += "<img src ='fullDeck/card8.png' >" 
     }
     else if(randomNumber === 9){
-        deckEl.textContent += " " + deck[8]
+        deckEl.innerHTML += "<img src ='fullDeck/card9.png' >" 
     }
     else if(randomNumber === 10){
-        deckEl.textContent += " " + deck[9]
+        deckEl.innerHTML += "<img src ='fullDeck/card10.png' >" 
     }
     else if(randomNumber === 11){
-        deckEl.textContent += " " + deck[10]
+        deckEl.innerHTML += "<img src ='fullDeck/cardj.jpg' >" 
     }
     else if(randomNumber === 12){
-        deckEl.textContent += " " + deck[11]
+        deckEl.innerHTML += "<img src ='fullDeck/cardq.jpg' >" 
     }
     else if(randomNumber === 13){
-        deckEl.textContent += " " + deck[12]
+        deckEl.innerHTML += "<img src ='fullDeck/cardk.png' >" 
     }
 
     if (randomNumber > 10) {
@@ -94,7 +92,6 @@ function renderGame() {
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
-        isAlive = true
     } else if (sum === 21) {
         message = "You've got Blackjack!"
         hasBlackJack = true

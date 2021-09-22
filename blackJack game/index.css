@@ -31,4 +31,15 @@ button {
     display: flex;
     text-align: center;
     margin-bottom: 100px;
+    border: 2px dotted black;
+    width: 1000px;
+
+}
+#deck-el{
+
+    object-fit: cover;  
+}
+img{
+    object-fit: cover;   
+
 }
